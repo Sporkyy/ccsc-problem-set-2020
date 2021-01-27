@@ -11,6 +11,18 @@ program should calculate the total hours and minutes they worked. Many members
 of the military work during the third shift so they may log in one evening, and
 log out the following day.
 
+## Input
+The first line of input will be a positive integer n representing the number of
+test cases. This will be followed by n lines of input consisting of two
+integers. The first integer at the start of the line is the time when someone
+logs in and the second integer is the time is when he or she logs out. The two
+integers will each be four digits and separated by a single space. They will
+always be valid times in the range from 0000 up to 2359.
+
+## Output Corresponding to Sample Input
+The output should be formatted exactly as shown below where each line indicates
+the hours and minutes worked between the two times. only have one of either.
+
 */
 
 // 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
