@@ -1,5 +1,7 @@
 // Problem 1 | Military Time
 
+// 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+
 /*
 
 Military time is a method of measuring the time based on the full twenty-fours
@@ -42,6 +44,10 @@ the hours and minutes worked between the two times. only have one of either.
 
 // 〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
 
+/**
+ * @param {string} s
+ * @returns {string}
+ */
 const timeDiff = s => {
   const [t1, t2] = s.split(' ').map(Number);
   let diff = t2 - t1;
